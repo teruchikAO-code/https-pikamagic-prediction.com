@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090b12">
+<title>Pika Magic Prediction</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;display:grid;place-items:center;padding:24px;
+background:radial-gradient(ellipse at 50% 18%,#273047 0%,#101522 42%,#050609 100%);
+color:#f7f2e7;font-family:Georgia,"Yu Mincho",serif}
+.card{width:min(100%,520px);padding:38px 25px 32px;text-align:center;
+border:1px solid #b99a52;border-radius:22px;background:linear-gradient(145deg,#141a28ed,#080a10f5);
+box-shadow:0 0 0 6px #b99a5210,0 22px 80px #000b;position:relative;overflow:hidden}
+.card:before,.card:after{content:"✦";position:absolute;color:#d5b66c;font-size:22px;opacity:.75}
+.card:before{top:17px;left:20px}.card:after{right:20px;bottom:17px}
+.brand{letter-spacing:.28em;color:#d8bd7a;font:600 12px/1.5 Arial,sans-serif}
+.rule{width:70px;height:1px;background:#b99a52;margin:22px auto}
+h1{font-size:clamp(25px,7vw,38px);font-weight:400;line-height:1.45;margin:0}
+.sub{font:12px Arial,sans-serif;letter-spacing:.2em;color:#b8b8bd;margin:10px 0 25px}
+.prompt{font-size:16px;color:#d9d2c4;margin:0 0 14px}
+.reveal{font-size:clamp(40px,11vw,64px);font-weight:bold;color:#e44b57;
+text-shadow:0 0 22px #e44b5738;letter-spacing:.04em;margin:5px 0 12px}
+.jp{font-size:clamp(25px,7vw,34px);color:#f5e8c8;margin:0}
+.footer{margin-top:32px;color:#c6ad72;font:11px Arial,sans-serif;letter-spacing:.18em}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="brand">PIKA MAGIC</div>
+  <div class="rule"></div>
+  <h1>YOUR CARD<br>WAS PREDICTED.</h1>
+  <p class="sub">A MYSTERY REVEALED</p>
+  <p class="prompt">あなたの選んだカードは……</p>
+  <div class="reveal">♥ 6 ♥</div>
+  <p class="jp">ハートの6</p>
+  <div class="rule"></div>
+  <div class="footer">PREDICTION BY PIKA JUNIOR MAGICIAN</div>
+</main>
+</body>
+</html>
